@@ -76,10 +76,18 @@ The above is actually easier than what we are demonstrating here lol. But imagin
    npm run attach
    ```
 
+   Then hit the function to see the dynamic values from layer
+
 4. To remove the layer:
    ```bash
    npm run detach
    ```
+
+5. Remove & cleanup the stack and the layer
+
+  ```
+  npm run remove
+  ```
 
 ## Benefits
 
