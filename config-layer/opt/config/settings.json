@@ -1,0 +1,9 @@
+{
+  "FOO": "FOO_FROM_CONFIG_LAYER",
+  "BAZ": "BAZ_FROM_CONFIG_LAYER",
+  "LOG_LEVEL": "DEBUG",
+  "FEATURE_FLAGS": {
+    "NEW_UI": true,
+    "BETA_FEATURE": true
+  }
+}

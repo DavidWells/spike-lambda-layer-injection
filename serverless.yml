@@ -1,0 +1,27 @@
+service: spike-lambda-layer-injection
+
+provider:
+  name: aws
+  runtime: nodejs22.x
+  region: us-west-2
+  stage: ${opt:stage, 'dev'}
+  environment:
+    FOO: bar
+    BAZ: ZAZ
+
+functions:
+  hello:
+    handler: src/hello.handler
+    events:
+      - http:
+          path: /hello
+          method: post
+          cors: true
+
+  goodbye:
+    handler: src/goodbye.handler
+    events:
+      - http:
+          path: /goodbye
+          method: get
+          cors: true 

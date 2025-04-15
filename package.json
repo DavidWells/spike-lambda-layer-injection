@@ -1,0 +1,18 @@
+{
+  "name": "spike-lambda-layer-injection",
+  "version": "1.0.0",
+  "description": "Serverless application with Lambda functions",
+  "main": "index.js",
+  "scripts": {
+    "package-layer": "scripts/layer-package.sh",
+    "publish-layer": "scripts/layer-publish.sh",
+    "delete-layer": "scripts/layer-delete.sh",
+    "attach": "scripts/layer-attach.sh",
+    "detach": "scripts/layer-detach.sh",
+    "deploy": "serverless deploy",
+    "remove": "npm run delete-layer && serverless remove"
+  },
+  "devDependencies": {
+    "serverless": "^3.38.0"
+  }
+} 
