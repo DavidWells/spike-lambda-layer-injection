@@ -4,6 +4,8 @@ Lambda Layers provide a way to package and distribute additional code and config
 
 Essentially a "hot swap" on hardcoded values or code.
 
+Video demo: https://youtu.be/l-2ORfkNVr0
+
 ## Notes
 
 The layer approach I described would primarily make sense in specific scenarios:
