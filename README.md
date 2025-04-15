@@ -85,9 +85,9 @@ The above is actually easier than what we are demonstrating here lol. But imagin
 
 5. Remove & cleanup the stack and the layer
 
-  ```
-  npm run remove
-  ```
+    ```bash
+    npm run remove
+    ```
 
 ## Benefits
 
