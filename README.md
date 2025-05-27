@@ -97,3 +97,7 @@ The above is actually easier than what we are demonstrating here lol. But imagin
 ## License
 
 MIT 
+
+## Other handy layers
+
+- Wrap lambda for input / output logging https://github.com/ServerlessLife/lambda-logger-extension
